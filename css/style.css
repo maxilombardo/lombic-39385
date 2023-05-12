@@ -1,0 +1,534 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+
+/** HOME*/
+
+
+nav {
+    background-color: white;
+    height: 10em;
+
+    margin: -1%;
+    margin-left: 0;
+    position: fixed;
+
+    width: 100vw;
+    border: 4px;
+    border-bottom: 2px solid rgb(53, 49, 49);
+}
+
+body {
+    background-color: white;
+    overflow-x: hidden;
+
+}
+
+.logo {
+    height: 6em;
+    padding-left: 36em;
+    padding-top: 1.8em;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+
+    padding-top: -2em;
+    font-size: 20px;
+    justify-content: center;
+
+
+
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    padding-right: 5em;
+
+}
+
+
+
+.imagend2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+
+.imagenx2 {
+
+    margin-top: 15em;
+    width: 30em;
+    height: 30em;
+    object-fit: cover;
+
+
+
+}
+
+.imagenx1 {
+    margin-top: 5em;
+    margin-left: 8em;
+    object-fit: cover;
+    height: 25em;
+    width: 81%;
+
+
+}
+
+.imagend3 {
+    margin-top: 5em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+
+.imagenx3 {
+    width: 17.2em;
+    height: 17.2em;
+    object-fit: cover;
+}
+
+
+.textohome {
+
+    margin-top: 5em;
+    padding-left: 5em;
+    padding-right: 5em;
+    text-align: center;
+}
+
+
+
+
+
+
+
+footer {
+
+    background-color: white;
+    height: 12em;
+    width: 100%;
+    margin: -1%;
+
+    margin-left: 0;
+    margin-top: 15em;
+    margin-bottom: 0%;
+    border-top: 2px solid rgb(53, 49, 49);
+}
+
+.logofooter {
+    width: 220px;
+    height: 130px;
+    padding-left: 13em;
+    padding-top: 1em;
+}
+
+.mapafooter {
+    width: 20em;
+    height: 9em;
+    padding-top: 1.5em;
+    padding-left: 2em;
+
+}
+
+
+
+.iconosredes {
+    width: 2em;
+    margin-top: 1.5em;
+    margin-left: 0;
+    flex-direction: row;
+    padding-left: 16em;
+    padding-top: 1em;
+
+}
+
+.iconosredes2 {
+    width: 2em;
+    margin-top: 1.5em;
+    margin-left: 0;
+    flex-direction: row;
+    padding-left: -8em;
+    padding-top: 1em;
+
+}
+
+
+.footerdetails {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.aredes {
+    padding-right: 1em;
+    padding-top: 1.7em;
+    padding-left: 4em;
+
+}
+
+/** FASHION*/
+
+.logofashion {
+    height: 6em;
+    padding-left: 36em;
+    padding-top: 1.8em;
+}
+
+
+.fashionsection {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 11em;
+    
+
+}
+
+
+.imagenesfashion {
+
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    padding: 25px;
+
+}
+
+.imagenesfashionbig {
+
+    width: 850px;
+    height: 350px;
+    object-fit: cover;
+    padding: 25px;
+
+}
+
+.numerospaginas {
+display: flex;
+flex-direction: row;
+align-items: center;
+padding-left: 30em;
+padding-top: 8em;
+margin-bottom: -7em;
+
+}
+
+.numbers {
+padding: 2em;
+font-size: 20px;
+font-weight: bold;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+/** ABOUT US*/
+.imagenaboutus {
+    width: 55em;
+    margin-top: 15%;
+    padding-left: 14em;
+    padding-bottom: 3em;
+
+
+}
+
+
+
+.sectionaboutus {
+    display: flex;
+    flex-direction: column;
+
+
+
+}
+
+.divtextaboutus {
+    margin-left: 13em;
+    margin-right: 15em;
+
+}
+
+.h1biography {
+    margin-bottom: 2em;
+
+
+}
+
+
+
+.divtextaboutus2 {
+    margin-left: 13em;
+    margin-right: 15em;
+
+}
+
+.h1biography2 {
+    margin-bottom: 2em;
+    margin-top: 4em;
+}
+
+
+
+/**work with us*/
+
+.workwithussection {
+    align-items: center;
+
+
+}
+
+.imagenworkwithus {
+
+    width: 75%;
+    height: 15em;
+    margin-top: 15%;
+    margin-left: 12em;
+    object-fit: cover;
+
+}
+
+.divtextworkwithus {
+    margin-top: 3em;
+    margin-left: 12em;
+
+}
+
+.inputxl {
+    height: 10em;
+}
+
+input {
+    width: 30em;
+    height: 2em;
+    border: solid black 2px;
+
+}
+
+.contenedor-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+
+
+}
+
+.flexdrow {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.formulariosection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5em;
+    gap: 20px;
+    border-style: none;
+
+
+}
+
+.boton-form {
+    width: 15em;
+    height: 7em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(141, 136, 136);
+
+}
+
+.boton-div {
+    display: flex;
+    justify-content: center;
+    margin-top: 5em;
+
+
+}
+
+.celdasformulario {
+    width: 35%;
+    padding: 17px;
+
+}
+
+.celdasformulariobig {
+    width: 35%;
+    padding: 35px;
+    padding-left: 30px;
+    padding-right: 9px;
+
+}
+
+
+/**PHOTOS */
+
+.photossection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+
+.photossection1 {
+    width: 100%;
+    height: 30em;
+    margin-top: 12em;
+    margin-bottom: 3em;
+    object-fit: cover;
+
+}
+
+.asection {
+    padding-right: 0px;
+
+}
+
+
+
+
+
+
+
+
+
+/*
+@media only screen and (min-width: 420px) {
+    #inicio{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+    }
+}*/
+body {
+    min-height: 100%;
+}
+
+.grid-container {
+    display: grid;
+
+    grid-template-areas: "header"
+        "main"
+        "footer"
+    ;
+}
+
+@media only screen and (max-width:600px) {
+
+    .grid-container {
+        grid-template-areas: "header "
+            "main"
+            "footer"
+        ;
+    }
+
+    .logo {
+        height: auto;
+        padding-left: 0;
+
+    }
+
+    nav {
+        width: 100%;
+        height: auto;
+    }
+
+
+
+
+    .imagend2 {
+        flex-direction: column;
+        justify-content: space-around;
+
+    }
+
+    .imagenx2 {
+        margin-top: 0em;
+        width: 100%;
+
+        height: 30em;
+        object-fit: cover;
+
+    }
+
+    .imagenx1 {
+        margin-top: 0;
+        margin-left: 0;
+        margin-bottom: 0;
+        object-fit: cover;
+        height: 30em;
+        width: 100%;
+
+    }
+
+    .imagend3 {
+        margin-top: 0;
+        flex-direction: column;
+        justify-content: space-evenly;
+
+
+        object-fit: cover;
+    }
+
+    .imagenx3 {
+
+        width: 100%;
+        height: 30em;
+        object-fit: cover;
+    }
+
+
+
+    footer {
+        width: 100%;
+
+    }
+
+    .logofooter {
+        width: 220px;
+        height: 130px;
+        padding-left: 1em;
+    }
+
+
+}
+
+
+@media only screen and (max-width:1023px) {
+
+    nav {
+        width: 100%;
+        height: auto;
+
+    }
+
+    ul .logo {
+        height: 10em;
+        padding-left: 0;
+
+    }
+
+
+}
