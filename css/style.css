@@ -1,1368 +1,870 @@
+/** HOME*/
+/** FASHION*/
+/** ABOUT US*/
+/**work with us*/
+/**PHOTOS */
+/** About us*/
+/* Fashion */
+/* Fashion */
+/*Photos
+    */
+/*Work w us*/
+/** About us*/
+/*
+    */
+/* work w us*/
+/** About us*/
+/* Fashion */
+/* Photos */
+/* work w us*/
+/** About us*/
+/* Fashion */
+/* Photos */
+/* work w us*/
+/** About us*/
+/* Fashion */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: 0;
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
 }
 
-
-/** HOME*/
-
-
 nav {
-    background-color: white;
-    height: auto;
-
-    margin: -1%;
-    margin-left: 0;
-    position: fixed;
-
-    width: 100vw;
-    border: 4px;
-    border-bottom: 2px solid rgb(53, 49, 49);
+  background-color: white;
+  height: auto;
+  margin: -1%;
+  margin-left: 0;
+  position: fixed;
+  width: 100vw;
+  border: 4px;
+  border-bottom: 2px solid rgb(53, 49, 49);
 }
 
 body {
-    background-color: white;
-    overflow-x: hidden;
-
+  background-color: white;
+  overflow-x: hidden;
 }
 
 .logo {
-    height: 6em;
-    padding-left: 36em;
-    padding-top: 1.8em;
+  height: 6em;
+  padding-left: 36em;
+  padding-top: 1.8em;
 }
 
 ul {
-    list-style: none;
-    display: flex;
-    flex-direction: row;
-
-    padding-top: -2em;
-    font-size: 20px;
-    justify-content: center;
-
-
-
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  padding-top: -2em;
+  font-size: 20px;
+  justify-content: center;
 }
 
 a {
-    text-decoration: none;
-    color: black;
-    padding-right: 5em;
-
+  text-decoration: none;
+  color: black;
+  padding-right: 5em;
 }
 
-
-
 .imagend2 {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
 }
 
 .imagenx2 {
-
-    margin-top: 15em;
-    width: 30em;
-    height: 30em;
-    object-fit: cover;
-
-
-
+  margin-top: 15em;
+  width: 30em;
+  height: 30em;
+  object-fit: cover;
 }
 
 .imagenx1 {
-    margin-top: 5em;
-    margin-left: 8em;
-    object-fit: cover;
-    height: 25em;
-    width: 81%;
-
-
+  margin-top: 5em;
+  margin-left: 8em;
+  object-fit: cover;
+  height: 25em;
+  width: 81%;
 }
 
 .imagend3 {
-    margin-top: 5em;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-
+  margin-top: 5em;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
 }
 
 .imagenx3 {
-    width: 17.2em;
-    height: 17.2em;
-    object-fit: cover;
+  width: 17.2em;
+  height: 17.2em;
+  object-fit: cover;
 }
-
 
 .textohome {
-
-    margin-top: 5em;
-    padding-left: 5em;
-    padding-right: 5em;
-    text-align: center;
+  margin-top: 5em;
+  padding-left: 5em;
+  padding-right: 5em;
+  text-align: center;
 }
 
-
-
-
-
-
-
 footer {
-
-    background-color: white;
-    height: 12em;
-    width: 100%;
-    margin: -1%;
-    margin-left: 0;
-    margin-top: 15em;
-    margin-bottom: 0%;
-    border-top: 2px solid rgb(53, 49, 49);
+  background-color: white;
+  height: 12em;
+  width: 100%;
+  margin: -1%;
+  margin-left: 0;
+  margin-top: 15em;
+  margin-bottom: 0%;
+  border-top: 2px solid rgb(53, 49, 49);
 }
 
 .logofooter {
-    width: 220px;
-    height: 130px;
-
-    padding-top: 1em;
+  width: 220px;
+  height: 130px;
+  padding-top: 1em;
 }
 
 .mapafooter {
-    width: 20em;
-    height: 9em;
-    padding-top: 1.5em;
-    padding-left: 2em;
-
+  width: 20em;
+  height: 9em;
+  padding-top: 1.5em;
+  padding-left: 2em;
 }
 
-
-
 .iconosredes {
-    width: 2em;
-    margin-top: 1.5em;
-    margin-left: 0;
-    flex-direction: row;
-    padding-left: 16em;
-    padding-top: 1em;
-
+  width: 2em;
+  margin-top: 1.5em;
+  margin-left: 0;
+  flex-direction: row;
+  padding-left: 16em;
+  padding-top: 1em;
 }
 
 .iconosredes2 {
-    width: 2em;
-    margin-top: 1.5em;
-    margin-left: 0;
-    flex-direction: row;
-    padding-left: -8em;
-    padding-top: 1em;
-
+  width: 2em;
+  margin-top: 1.5em;
+  margin-left: 0;
+  flex-direction: row;
+  padding-left: -8em;
+  padding-top: 1em;
 }
 
-
 .footerdetails {
-    display: flex;
-    flex-direction: row;
-
+  display: flex;
+  flex-direction: row;
 }
 
 .aredes {
-    padding-right: 1em;
-    padding-top: 1.7em;
-    padding-left: 4em;
-
+  padding-right: 1em;
+  padding-top: 1.7em;
+  padding-left: 4em;
 }
-
-/** FASHION*/
-
-
-
 
 .fashionsection {
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-top: 11em;
-
-
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 11em;
 }
 
-
 .imagenesfashion {
-
-    width: 400px;
-    height: 400px;
-    object-fit: cover;
-    padding: 25px;
-
+  width: 400px;
+  height: 400px;
+  object-fit: cover;
+  padding: 25px;
 }
 
 .imagenesfashionbig {
-
-    width: 850px;
-    height: 350px;
-    object-fit: cover;
-    padding: 25px;
-
+  width: 850px;
+  height: 350px;
+  object-fit: cover;
+  padding: 25px;
 }
 
 .numerospaginas {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding-left: 30em;
-    padding-top: 8em;
-    margin-bottom: -7em;
-
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-left: 30em;
+  padding-top: 8em;
+  margin-bottom: -7em;
 }
 
 .numbers {
-    padding: 2em;
-    font-size: 20px;
-    font-weight: bold;
-
-
+  padding: 2em;
+  font-size: 20px;
+  font-weight: bold;
 }
 
-
-
-
-
-
-
-
-
-
-/** ABOUT US*/
 .imagenaboutus {
-    width: 55em;
-    margin-top: 15%;
-    padding-left: 14em;
-    padding-bottom: 3em;
-
-
+  width: 55em;
+  margin-top: 15%;
+  padding-left: 14em;
+  padding-bottom: 3em;
 }
-
-
 
 .sectionaboutus {
-    display: flex;
-    flex-direction: column;
-
-
-
+  display: flex;
+  flex-direction: column;
 }
 
 .divtextaboutus {
-    margin-left: 13em;
-    margin-right: 15em;
-
+  margin-left: 13em;
+  margin-right: 15em;
 }
 
 .h1biography {
-    margin-bottom: 2em;
-
-
+  margin-bottom: 2em;
 }
 
-
-
 .divtextaboutus2 {
-    margin-left: 13em;
-    margin-right: 15em;
-
+  margin-left: 13em;
+  margin-right: 15em;
 }
 
 .h1biography2 {
-    margin-bottom: 2em;
-    margin-top: 4em;
+  margin-bottom: 2em;
+  margin-top: 4em;
 }
 
-
-
-/**work with us*/
-
 .workwithussection {
-    align-items: center;
-
-
+  align-items: center;
 }
 
 .imagenworkwithus {
-
-    width: 75%;
-    height: 15em;
-    margin-top: 15%;
-    margin-left: 12em;
-    object-fit: cover;
-
+  width: 75%;
+  height: 15em;
+  margin-top: 15%;
+  margin-left: 12em;
+  object-fit: cover;
 }
 
 .divtextworkwithus {
-    margin-top: 3em;
-    margin-left: 12em;
-
+  margin-top: 3em;
+  margin-left: 12em;
 }
 
 .inputxl {
-    height: 10em;
+  height: 10em;
 }
 
 input {
-    width: 30em;
-    height: 2em;
-    border: solid black 2px;
-
+  width: 30em;
+  height: 2em;
+  border: solid black 2px;
 }
 
 .contenedor-form {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-
-
-
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
 }
 
 .flexdrow {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
 }
 
 .formulariosection {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 5em;
-    gap: 20px;
-    border-style: none;
-
-
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 5em;
+  gap: 20px;
+  border-style: none;
 }
 
 .boton-form {
-    width: 15em;
-    height: 7em;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background-color: rgb(141, 136, 136);
-
+  width: 15em;
+  height: 7em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(141, 136, 136);
 }
 
 .boton-div {
-    display: flex;
-    justify-content: center;
-    margin-top: 5em;
-
-
+  display: flex;
+  justify-content: center;
+  margin-top: 5em;
 }
 
 .celdasformulario {
-    width: 35%;
-    padding: 17px;
-
+  width: 35%;
+  padding: 17px;
 }
 
 .celdasformulariobig {
-    width: 35%;
-    padding: 35px;
-    padding-left: 30px;
-    padding-right: 9px;
-
+  width: 35%;
+  padding: 35px;
+  padding-left: 30px;
+  padding-right: 9px;
 }
 
-
-/**PHOTOS */
-
 .photossection {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
-
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .photossection1 {
-    width: 100%;
-    height: 30em;
-    margin-top: 12em;
-    margin-bottom: 3em;
-    object-fit: cover;
-
+  width: 100%;
+  height: 30em;
+  margin-top: 12em;
+  margin-bottom: 3em;
+  object-fit: cover;
 }
 
 .asection {
-    padding-right: 0px;
-
+  padding-right: 0px;
 }
 
-
-
-@media(max-width:1440px) {
-
-    .iconosredes {
-
-
-        padding-left: 9em;
-        padding-top: 1em;
-
-    }
-
-    .iconosredes2 {
-
-
-        padding-left: -8em;
-        padding-top: 1em;
-
-    }
-
-    .logofooter {
-        padding-left: 15em;
-    }
-
-
+@media (max-width: 1440px) {
+  .iconosredes {
+    padding-left: 9em;
+    padding-top: 1em;
+  }
+  .iconosredes2 {
+    padding-left: -8em;
+    padding-top: 1em;
+  }
+  .logofooter {
+    padding-left: 15em;
+  }
 }
-
-
-
-
-
-
-@media(max-width:1024px) {
-    .navclass {
-        width: 100%;
-
-    }
-
-    .aredes {
-
-        padding-right: -4em;
-        padding-left: 1em;
-
-    }
-
-    .iconosredes {
-        width: 2em;
-        flex-direction: row;
-        padding-left: 8em;
-
-    }
-
-    .logofooter {
-
-        width: 210px;
-        height: 120px;
-        padding-left: 9em;
-        padding-top: 2em;
-    }
-
-    .mapafooter {
-        width: 16em;
-        height: 8em;
-    }
-
-    .logo {
-        padding-left: 28em;
-    }
-
-    .botones-nav {
-        padding-left: 2em;
-    }
-
-    .imagenx2 {
-
-        width: 23em;
-        height: 23em;
-
-    }
-
-    .imagenx1 {
-
-        height: 18em;
-        width: 81%;
-        margin-left: 6em;
-    }
-
-    .imagenx3 {
-        width: 13.2em;
-        height: 13.2em;
-
-    }
-
-    .imagenworkwithus {
-
-        margin-left: 8em;
-        
-    
-    }
-
-
-    /** About us*/
-.imagenaboutus {
+@media (max-width: 1024px) {
+  .navclass {
+    width: 100%;
+  }
+  .aredes {
+    padding-right: -4em;
+    padding-left: 1em;
+  }
+  .iconosredes {
+    width: 2em;
+    flex-direction: row;
+    padding-left: 8em;
+  }
+  .logofooter {
+    width: 210px;
+    height: 120px;
+    padding-left: 9em;
+    padding-top: 2em;
+  }
+  .mapafooter {
+    width: 16em;
+    height: 8em;
+  }
+  .logo {
+    padding-left: 28em;
+  }
+  .botones-nav {
+    padding-left: 2em;
+  }
+  .imagenx2 {
+    width: 23em;
+    height: 23em;
+  }
+  .imagenx1 {
+    height: 18em;
+    width: 81%;
+    margin-left: 6em;
+  }
+  .imagenx3 {
+    width: 13.2em;
+    height: 13.2em;
+  }
+  .imagenworkwithus {
+    margin-left: 8em;
+  }
+  .imagenaboutus {
     width: 50em;
     margin-top: 20%;
     padding-left: 7em;
-    }
-
-
-    .divtextaboutus {
-        margin-left: 7em;
-        margin-right: 7em;
-    
-    }
-
-    .divtextaboutus2 {
-        margin-left: 7em;
-        margin-right: 7em;
-    
-    }
-
-    /* Fashion */
-
-    .imagenesfashion {
-
-        width: 350px;
-        height: 350px;
-        padding: 25px;
-    
-    }
-    
-    .imagenesfashionbig {
-    
-        width: 780px;
-        height: 300px;
-        
-        padding: 25px;
-    
-    }
-
-    .numerospaginas {
-
-        padding-left: 19em;
-        padding-top: 7em;
-        margin-bottom: -7em;
-    
-    }
-    
-    .numbers {
-        padding: 2em;
-        font-size: 20px;
-        font-weight: bold;
-    
-    
-    }
-
+  }
+  .divtextaboutus {
+    margin-left: 7em;
+    margin-right: 7em;
+  }
+  .divtextaboutus2 {
+    margin-left: 7em;
+    margin-right: 7em;
+  }
+  .imagenesfashion {
+    width: 350px;
+    height: 350px;
+    padding: 25px;
+  }
+  .imagenesfashionbig {
+    width: 780px;
+    height: 300px;
+    padding: 25px;
+  }
+  .numerospaginas {
+    padding-left: 19em;
+    padding-top: 7em;
+    margin-bottom: -7em;
+  }
+  .numbers {
+    padding: 2em;
+    font-size: 20px;
+    font-weight: bold;
+  }
 }
-
-@media(max-width:768px) {
-
-
-
-    .botones-nav {
-        width: 100%;
-
-    }
-
-    .textonav {
-        font-size: 14px;
-    }
-
-    .logo {
-        padding-left: 20em;
-    }
-
-    .imagenx2 {
-
-        width: 18em;
-        height: 18em;
-        padding-left: 1em;
-
-    }
-
-    .imagend2 {
-        padding-left: 1em;
-        padding-right: 1.5em;
-    }
-
-    .imagenx1 {
-
-        height: 15em;
-        width: 82%;
-        margin-left: 4.5em;
-    }
-
-    .imagenx3 {
-        width: 10.2em;
-        height: 10.2em;
-        padding-left: 0.5em;
-
-    }
-
-    .imagend3 {
-        padding-left: 0.5em;
-    }
-
-    .textohome {
-
-        padding-left: 4em;
-        padding-right: 3em;
-
-    }
-
-    .aredes {
-
-        padding-right: -3em;
-
-
-    }
-
-    .iconosredes {
-        width: 2em;
-        flex-direction: row;
-        padding-left: 4em;
-
-    }
-
-    .logofooter {
-
-        width: 170px;
-        height: 90px;
-        padding-left: 5em;
-        padding-top: 1.8em;
-    }
-
-    .mapafooter {
-        width: 14em;
-        height: 7em;
-    }
-
-     /* Fashion */
-
-     .imagenesfashion {
-
-        width: 300px;
-        height: 300px;
-        padding: 25px;
-    
-    }
-    
-    .imagenesfashionbig {
-    
-        width: 690px;
-        height: 270px;
-        
-        padding: 25px;
-    
-    }
-
-    .numerospaginas {
-
-        padding-left: 10em;
-        padding-top: 6em;
-        margin-bottom: -7em;
-    
-    }
-    
-    .numbers {
-        padding: 2em;
-        font-size: 20px;
-        font-weight: bold;
-    
-    
-    }
-
-
-    /*Photos
-    */
-
-    .photossection1 {
-        width: 90%;
-        height: 20em;
-        margin-top: 15em;
-        margin-right: -2em;
-
-
-    }
-
-    .photossection {
-        padding-left: 3.5em;
-        padding-top: 3em;
-    }
-
-    /*Work w us*/
-
-    .imagenworkwithus {
-
-        margin-top: 10em;
-        margin-left: 6.5em;
-        
-    
-    }
-
-    .inputxl {
-        height: 7em;
-    }
-    
-    input {
-        width: 22em;
-        height: 2em;
-        
-    }
-
-       /** About us*/
-.imagenaboutus {
+@media (max-width: 768px) {
+  .botones-nav {
+    width: 100%;
+  }
+  .textonav {
+    font-size: 14px;
+  }
+  .logo {
+    padding-left: 20em;
+  }
+  .imagenx2 {
+    width: 18em;
+    height: 18em;
+    padding-left: 1em;
+  }
+  .imagend2 {
+    padding-left: 1em;
+    padding-right: 1.5em;
+  }
+  .imagenx1 {
+    height: 15em;
+    width: 82%;
+    margin-left: 4.5em;
+  }
+  .imagenx3 {
+    width: 10.2em;
+    height: 10.2em;
+    padding-left: 0.5em;
+  }
+  .imagend3 {
+    padding-left: 0.5em;
+  }
+  .textohome {
+    padding-left: 4em;
+    padding-right: 3em;
+  }
+  .aredes {
+    padding-right: -3em;
+  }
+  .iconosredes {
+    width: 2em;
+    flex-direction: row;
+    padding-left: 4em;
+  }
+  .logofooter {
+    width: 170px;
+    height: 90px;
+    padding-left: 5em;
+    padding-top: 1.8em;
+  }
+  .mapafooter {
+    width: 14em;
+    height: 7em;
+  }
+  .imagenesfashion {
+    width: 300px;
+    height: 300px;
+    padding: 25px;
+  }
+  .imagenesfashionbig {
+    width: 690px;
+    height: 270px;
+    padding: 25px;
+  }
+  .numerospaginas {
+    padding-left: 10em;
+    padding-top: 6em;
+    margin-bottom: -7em;
+  }
+  .numbers {
+    padding: 2em;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .photossection1 {
+    width: 90%;
+    height: 20em;
+    margin-top: 15em;
+    margin-right: -2em;
+  }
+  .photossection {
+    padding-left: 3.5em;
+    padding-top: 3em;
+  }
+  .imagenworkwithus {
+    margin-top: 10em;
+    margin-left: 6.5em;
+  }
+  .inputxl {
+    height: 7em;
+  }
+  input {
+    width: 22em;
+    height: 2em;
+  }
+  .imagenaboutus {
     width: 38em;
     margin-top: 22%;
     padding-left: 6em;
-    }
-
-
-
-
-
-
+  }
 }
-
-@media(max-width:425px) {
-    .imagend2 {
-
-        flex-direction: column;
-        padding-bottom: 0em;
-        margin-bottom: -2em;
-        padding-top: 17em;
-
-    }
-
-    .imagenx2 {
-
-        width: 23em;
-        height: 15em;
-        padding-bottom: 0em;
-        margin-top: 3em;
-
-    }
-
-    .imagengirl1 {
-        margin-bottom: 0em;
-        margin-top: 15em;
-    }
-
-    .imagengirl2 {
-        margin-top: -15em;
-        padding-top: -15em;
-    }
-
-
-
-    .footerdetails {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-
-    }
-
-    .mapafooter {
-        width: 10em;
-        height: 5em;
-    }
-
-    .logofooter {
-
-        width: 150px;
-        height: 75px;
-        padding-left: 1em;
-        margin-bottom: -4em;
-
-
-    }
-
-    .aredes {
-        padding-left: 0em;
-        padding-right: 0em;
-
-    }
-
-    .iconosredes {
-
-        width: 1.8em;
-        padding-left: 1em;
-        padding-bottom: -1em;
-        margin-bottom: -2em;
-
-
-    }
-
-    .iconosredes2 {
-
-        width: 1.8em;
-        padding-left: 1em;
-        padding-top: 0em;
-        padding-bottom: -1em;
-        margin-bottom: -2em;
-
-
-
-    }
-
-    footer {
-        width: auto;
-
-
-
-
-    }
-
-
-    .textohome {
-        font-size: 12px;
-        padding-left: 2em;
-        padding-right: 1em;
-
-
-    }
-
-    .imagenx1 {
-
-        width: 23em;
-        height: 15em;
-        margin-left: 2em;
-    }
-
-    .imagend3 {
-
-        flex-direction: column;
-        padding-top: 0em;
-        margin-top: 0em;
-        margin-left: 1em;
-
-
-    }
-
-    .imagenx3 {
-        width: 23em;
-        height: 15em;
-        padding-top: 3em;
-    }
-
-    .textonav {
-
-        font-size: 12px;
-        padding-top: 2em;
-        padding-left: 1em;
-        margin-right: -3em;
-        padding-right: 0em;
-
-    }
-
-    .botones-nav {
-        margin-left: -2em;
-        margin-right: 1.5em;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .logo {
-        padding-left: 9em;
-        margin-bottom: -2em;
-        padding-top: 0.5em;
-    }
-
-    nav {
-
-        height: auto;
-
-    }
-
-    /*
-    */
-
-    .photossection1 {
-        width: 90%;
-        height: 15em;
-        margin-right: 0em;
-        padding-left: 0em;
-
-
-
-    }
-
-
-    /* work w us*/
-
-    .imagenworkwithus {
-
-        width: 70%;
-        height: 9em;
-        margin-top: 19em;
-        margin-left: 4.5em;
-        
-    
-    }
-
-
-    
-    .divtextworkwithus {
-        margin-top: 3.5em;
-        margin-left: 6.5em;
-        font-size: 10px;
-    
-    }
-
-    .flexdrow {
-        display: flex;
-        flex-direction: column;
-       
-    }
-
-    .inputxl {
-        height: 4em;
-    }
-    
-    input {
-        width: 15em;
-        height: 2em;
-        
-    }
-
-    .boton-form {
-        width: 12em;
-        height: 4em;
-  
-    
-    }
-
-    /** About us*/
-.imagenaboutus {
+@media (max-width: 425px) {
+  .imagend2 {
+    flex-direction: column;
+    padding-bottom: 0em;
+    margin-bottom: -2em;
+    padding-top: 17em;
+  }
+  .imagenx2 {
+    width: 23em;
+    height: 15em;
+    padding-bottom: 0em;
+    margin-top: 3em;
+  }
+  .imagengirl1 {
+    margin-bottom: 0em;
+    margin-top: 15em;
+  }
+  .imagengirl2 {
+    margin-top: -15em;
+    padding-top: -15em;
+  }
+  .footerdetails {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .mapafooter {
+    width: 10em;
+    height: 5em;
+  }
+  .logofooter {
+    width: 150px;
+    height: 75px;
+    padding-left: 1em;
+    margin-bottom: -4em;
+  }
+  .aredes {
+    padding-left: 0em;
+    padding-right: 0em;
+  }
+  .iconosredes {
+    width: 1.8em;
+    padding-left: 1em;
+    padding-bottom: -1em;
+    margin-bottom: -2em;
+  }
+  .iconosredes2 {
+    width: 1.8em;
+    padding-left: 1em;
+    padding-top: 0em;
+    padding-bottom: -1em;
+    margin-bottom: -2em;
+  }
+  footer {
+    width: auto;
+  }
+  .textohome {
+    font-size: 12px;
+    padding-left: 2em;
+    padding-right: 1em;
+  }
+  .imagenx1 {
+    width: 23em;
+    height: 15em;
+    margin-left: 2em;
+  }
+  .imagend3 {
+    flex-direction: column;
+    padding-top: 0em;
+    margin-top: 0em;
+    margin-left: 1em;
+  }
+  .imagenx3 {
+    width: 23em;
+    height: 15em;
+    padding-top: 3em;
+  }
+  .textonav {
+    font-size: 12px;
+    padding-top: 2em;
+    padding-left: 1em;
+    margin-right: -3em;
+    padding-right: 0em;
+  }
+  .botones-nav {
+    margin-left: -2em;
+    margin-right: 1.5em;
+    flex-direction: column;
+    align-items: center;
+  }
+  .logo {
+    padding-left: 9em;
+    margin-bottom: -2em;
+    padding-top: 0.5em;
+  }
+  nav {
+    height: auto;
+  }
+  .photossection1 {
+    width: 90%;
+    height: 15em;
+    margin-right: 0em;
+    padding-left: 0em;
+  }
+  .imagenworkwithus {
+    width: 70%;
+    height: 9em;
+    margin-top: 19em;
+    margin-left: 4.5em;
+  }
+  .divtextworkwithus {
+    margin-top: 3.5em;
+    margin-left: 6.5em;
+    font-size: 10px;
+  }
+  .flexdrow {
+    display: flex;
+    flex-direction: column;
+  }
+  .inputxl {
+    height: 4em;
+  }
+  input {
+    width: 15em;
+    height: 2em;
+  }
+  .boton-form {
+    width: 12em;
+    height: 4em;
+  }
+  .imagenaboutus {
     width: 20em;
     margin-top: 68%;
     padding-left: 4em;
-    }
-
-    .divtextaboutus {
-        margin-left: 5em;
-        margin-right: 4em;
-        font-size: 13px;
-    
-    }
-
-    .divtextaboutus2 {
-        margin-left: 5em;
-        margin-right: 4em;
-        font-size: 13px;
-    
-    }
-
-    /* Fashion */
-
-    .fashionsection {
-
-       
-        margin-left: 3em;
-        padding-top: 16em;
-        padding-left: 1.5em;
-        padding-right: 0em;
-        
-    
-    }
-
-    .imagenesfashion {
-
-        width: 250px;
-        height: 250px;
-        padding: 25px;
-    
-    }
-    
-    .imagenesfashionbig {
-    
-        width: 250px;
-        height: 250px;
-        
-        padding: 25px;
-        padding-right: 24%;
-    
-    }
-
-    .numerospaginas {
-
-        padding-left: 5.5em;
-        padding-top: 5em;
-        margin-bottom: -7em;
-    
-    }
-    
-    .numbers {
-        padding: 1em;
-        font-size: 12px;
-        font-weight: bold;
-    
-    
-    }
-
-
-
+  }
+  .divtextaboutus {
+    margin-left: 5em;
+    margin-right: 4em;
+    font-size: 13px;
+  }
+  .divtextaboutus2 {
+    margin-left: 5em;
+    margin-right: 4em;
+    font-size: 13px;
+  }
+  .fashionsection {
+    margin-left: 3em;
+    padding-top: 16em;
+    padding-left: 1.5em;
+    padding-right: 0em;
+  }
+  .imagenesfashion {
+    width: 250px;
+    height: 250px;
+    padding: 25px;
+  }
+  .imagenesfashionbig {
+    width: 250px;
+    height: 250px;
+    padding: 25px;
+    padding-right: 24%;
+  }
+  .numerospaginas {
+    padding-left: 5.5em;
+    padding-top: 5em;
+    margin-bottom: -7em;
+  }
+  .numbers {
+    padding: 1em;
+    font-size: 12px;
+    font-weight: bold;
+  }
 }
-
-@media(max-width:375px) {
-
-    .botones-nav {
-        margin-left: -1em;
-
-        flex-direction: column;
-        align-items: center;
-    }
-
-    nav {
-        height: auto;
-
-    }
-
-    .textonav {
-
-        font-size: 12px;
-        padding-top: 2em;
-        padding-left: 1em;
-        margin-right: -3em;
-        padding-right: 2em;
-
-    }
-
-
-
-    .imagend2 {
-
-        flex-direction: column;
-        padding-bottom: 0em;
-        margin-bottom: -2em;
-        padding-top: 17em;
-
-    }
-
-    .imagenx2 {
-
-        width: 20em;
-        height: 15em;
-        padding-bottom: 0em;
-        margin-top: 3em;
-
-    }
-
-
-    .imagenx1 {
-
-        width: 20em;
-        height: 15em;
-        margin-left: 2em;
-    }
-
-    .imagend3 {
-
-        flex-direction: column;
-        padding-top: 0em;
-        margin-top: 0em;
-        margin-left: 1em;
-
-
-    }
-
-    .imagenx3 {
-        width: 20em;
-        height: 15em;
-        padding-top: 3em;
-    }
-
-    nav {
-        width: auto;
-        height: auto;
-
-    }
-
-    .logo {
-        padding-left: 8em;
-        padding-bottom: -1em;
-        margin-bottom: -2.5em;
-    }
-
-    /* Photos */
-
-    .photossection1 {
-        width: 90%;
-        height: 12em;
-
-    }
-
-    .asection {
-        margin-bottom: -8em;
-        margin-right: 1em;
-        
-    }
-
-    /* work w us*/
-
-    .divtextworkwithus {
-        
-        font-size:9px;
-    
-    }
-
-    /** About us*/
-.imagenaboutus {
+@media (max-width: 375px) {
+  .botones-nav {
+    margin-left: -1em;
+    flex-direction: column;
+    align-items: center;
+  }
+  nav {
+    height: auto;
+    width: auto;
+    height: auto;
+  }
+  .textonav {
+    font-size: 12px;
+    padding-top: 2em;
+    padding-left: 1em;
+    margin-right: -3em;
+    padding-right: 2em;
+  }
+  .imagend2 {
+    flex-direction: column;
+    padding-bottom: 0em;
+    margin-bottom: -2em;
+    padding-top: 17em;
+  }
+  .imagenx2 {
+    width: 20em;
+    height: 15em;
+    padding-bottom: 0em;
+    margin-top: 3em;
+  }
+  .imagenx1 {
+    width: 20em;
+    height: 15em;
+    margin-left: 2em;
+  }
+  .imagend3 {
+    flex-direction: column;
+    padding-top: 0em;
+    margin-top: 0em;
+    margin-left: 1em;
+  }
+  .imagenx3 {
+    width: 20em;
+    height: 15em;
+    padding-top: 3em;
+  }
+  .logo {
+    padding-left: 8em;
+    padding-bottom: -1em;
+    margin-bottom: -2.5em;
+  }
+  .photossection1 {
+    width: 90%;
+    height: 12em;
+  }
+  .asection {
+    margin-bottom: -8em;
+    margin-right: 1em;
+  }
+  .divtextworkwithus {
+    font-size: 9px;
+  }
+  .imagenaboutus {
     width: 19em;
     margin-top: 76%;
     padding-left: 2.5em;
-    }
-
-    /* Fashion */
-    .numbers {
-        padding: 0.5em;
-        font-size: 9px;
-        font-weight: bold;
-    
-    
-    }
-    .imagenesfashion {
-
-        width: 200px;
-        height: 200px;
-        padding: 25px;
-    
-    }
-    
-    .imagenesfashionbig {
-    
-        width: 200px;
-        height: 200px;
-        
-        padding: 25px;
-        padding-right: 24%;
-    
-    }
-    .numerospaginas {
-
-        padding-left: 5em;
-        padding-top: 4.5em;
-        margin-bottom: -7em;
-    
-    }
-
-
+  }
+  .numbers {
+    padding: 0.5em;
+    font-size: 9px;
+    font-weight: bold;
+  }
+  .imagenesfashion {
+    width: 200px;
+    height: 200px;
+    padding: 25px;
+  }
+  .imagenesfashionbig {
+    width: 200px;
+    height: 200px;
+    padding: 25px;
+    padding-right: 24%;
+  }
+  .numerospaginas {
+    padding-left: 5em;
+    padding-top: 4.5em;
+    margin-bottom: -7em;
+  }
 }
-
-@media(max-width:320px) {
-
-    nav {
-        height: auto;
-        padding-right: 0em;
-
-    }
-
-    .logo {
-
-
-        padding-left: 5em;
-
-
-    }
-
-    .textonav {
-
-        font-size: 10px;
-        padding-right: 7em;
-
-    }
-
-
-    .imagenx1 {
-
-        width: 16em;
-        height: 11em;
-
-    }
-
-    .imagenx2 {
-
-        width: 16em;
-        height: 11em;
-
-    }
-
-    .imagenx3 {
-
-        width: 16em;
-        height: 11em;
-
-    }
-
-
-    .textohome {
-        font-size: 10px;
-        margin-left: 4em;
-        padding-left: 0em;
-        padding-right: 5em;
-
-
-    }
-
-    footer {
-        height: auto;
-    }
-
-
-
-    /* Photos */
-    .photossection1 {
-        width: 90%;
-        height: 10em;
-
-    }
-
-    .asection {
-        margin-bottom: -12em;
-        margin-right: 2em;
-        padding-bottom: -2em;
-    }
-
-    /* work w us*/
-
-    .divtextworkwithus {
-        
-        font-size:8px;
-    
-    }
-
-    .imagenworkwithus {
-
-        width: 70%;
-        height: 7em;
-        margin-top: 15em;
-        margin-left: 3em;
-        
-    
-    }
-
-    /** About us*/
-.imagenaboutus {
+@media (max-width: 320px) {
+  nav {
+    height: auto;
+    padding-right: 0em;
+  }
+  .logo {
+    padding-left: 5em;
+  }
+  .textonav {
+    font-size: 10px;
+    padding-right: 7em;
+  }
+  .imagenx1 {
+    width: 16em;
+    height: 11em;
+  }
+  .imagenx2 {
+    width: 16em;
+    height: 11em;
+  }
+  .imagenx3 {
+    width: 16em;
+    height: 11em;
+  }
+  .textohome {
+    font-size: 10px;
+    margin-left: 4em;
+    padding-left: 0em;
+    padding-right: 5em;
+  }
+  footer {
+    height: auto;
+  }
+  .photossection1 {
+    width: 90%;
+    height: 10em;
+  }
+  .asection {
+    margin-bottom: -12em;
+    margin-right: 2em;
+    padding-bottom: -2em;
+  }
+  .divtextworkwithus {
+    font-size: 8px;
+  }
+  .imagenworkwithus {
+    width: 70%;
+    height: 7em;
+    margin-top: 15em;
+    margin-left: 3em;
+  }
+  .imagenaboutus {
     width: 17em;
     margin-top: 78%;
     padding-left: 1.5em;
-    }
-
-    .divtextaboutus {
-        margin-left: 4em;
-        margin-right: 3em;
-       
-    
-    }
-
-    .divtextaboutus2 {
-        margin-left: 4em;
-        margin-right: 3em;
-        
-    
-    }
-
-     /* Fashion */
-     .numbers {
-        padding: -4em;
-        font-size: 7px;
-        font-weight: bold;
-        
-    
-    
-    }
-    .imagenesfashion {
-
-        width: 200px;
-        height: 200px;
-        padding: 10px;
-    
-    }
-    
-    .imagenesfashionbig {
-    
-        width: 200px;
-        height: 200px;
-        
-        padding: 10px;
-        padding-right: 19%;
-    
-    }
-    .numerospaginas {
-
-        padding-left: 5em;
-        padding-top: 4.5em;
-        margin-bottom: -7em;
-    
-    }
-    .fashionsection {
-
+  }
+  .divtextaboutus {
+    margin-left: 4em;
+    margin-right: 3em;
+  }
+  .divtextaboutus2 {
+    margin-left: 4em;
+    margin-right: 3em;
+  }
+  .numbers {
+    padding: -4em;
+    font-size: 7px;
+    font-weight: bold;
+  }
+  .imagenesfashion {
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+  }
+  .imagenesfashionbig {
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+    padding-right: 19%;
+  }
+  .numerospaginas {
+    padding-left: 5em;
+    padding-top: 4.5em;
+    margin-bottom: -7em;
+  }
+  .fashionsection {
     padding-left: -1em;
     padding-right: 1em;
-    
-    
-    }
-
+  }
 }
 
-/*
-
-@media(max-width:768px) {
-    .navclass {
-        padding-right: 3em;
-
-    }
-
-    .logo {
-        padding-left: 30em;
-    }
-    hola
-
-    .botones-nav {
-
-        padding-right: 2em;
-    }
-
-    .imagend2 {
-
-        padding-right: 7em;
-    }
-
-    .imagend1 {
-
-
-        padding-right: 8em;
-    }
-
-    .imagenx1 {
-
-        margin-left: 5em;
-        height: 21em;
-        width: 87%;
-
-    }
-
-    .imagend3 {
-
-        padding-right: 7em;
-    }
-
-    .imagenx2 {
-        width: 28em;
-        height: 28em;
-    }
-
-    .textohome {
-
-        padding-right: 12em;
-
-    }
-
-}
-
-
+/*# sourceMappingURL=style.css.map */
