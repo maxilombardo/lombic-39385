@@ -177,11 +177,7 @@ footer {
 
 /** FASHION*/
 
-.logofashion {
-    height: 6em;
-    padding-left: 36em;
-    padding-top: 1.8em;
-}
+
 
 
 .fashionsection {
@@ -499,6 +495,69 @@ input {
 
     }
 
+    .imagenworkwithus {
+
+        margin-left: 8em;
+        
+    
+    }
+
+
+    /** About us*/
+.imagenaboutus {
+    width: 50em;
+    margin-top: 20%;
+    padding-left: 7em;
+    }
+
+
+    .divtextaboutus {
+        margin-left: 7em;
+        margin-right: 7em;
+    
+    }
+
+    .divtextaboutus2 {
+        margin-left: 7em;
+        margin-right: 7em;
+    
+    }
+
+    /* Fashion */
+
+    .imagenesfashion {
+
+        width: 350px;
+        height: 350px;
+        padding: 25px;
+    
+    }
+    
+    .imagenesfashionbig {
+    
+        width: 780px;
+        height: 300px;
+        
+        padding: 25px;
+    
+    }
+
+    .numerospaginas {
+
+        padding-left: 19em;
+        padding-top: 7em;
+        margin-bottom: -7em;
+    
+    }
+    
+    .numbers {
+        padding: 2em;
+        font-size: 20px;
+        font-weight: bold;
+    
+    
+    }
+
 }
 
 @media(max-width:768px) {
@@ -583,6 +642,41 @@ input {
         height: 7em;
     }
 
+     /* Fashion */
+
+     .imagenesfashion {
+
+        width: 300px;
+        height: 300px;
+        padding: 25px;
+    
+    }
+    
+    .imagenesfashionbig {
+    
+        width: 690px;
+        height: 270px;
+        
+        padding: 25px;
+    
+    }
+
+    .numerospaginas {
+
+        padding-left: 10em;
+        padding-top: 6em;
+        margin-bottom: -7em;
+    
+    }
+    
+    .numbers {
+        padding: 2em;
+        font-size: 20px;
+        font-weight: bold;
+    
+    
+    }
+
 
     /*Photos
     */
@@ -600,6 +694,35 @@ input {
         padding-left: 3.5em;
         padding-top: 3em;
     }
+
+    /*Work w us*/
+
+    .imagenworkwithus {
+
+        margin-top: 10em;
+        margin-left: 6.5em;
+        
+    
+    }
+
+    .inputxl {
+        height: 7em;
+    }
+    
+    input {
+        width: 22em;
+        height: 2em;
+        
+    }
+
+       /** About us*/
+.imagenaboutus {
+    width: 38em;
+    margin-top: 22%;
+    padding-left: 6em;
+    }
+
+
 
 
 
@@ -770,6 +893,120 @@ input {
     }
 
 
+    /* work w us*/
+
+    .imagenworkwithus {
+
+        width: 70%;
+        height: 9em;
+        margin-top: 19em;
+        margin-left: 4.5em;
+        
+    
+    }
+
+
+    
+    .divtextworkwithus {
+        margin-top: 3.5em;
+        margin-left: 6.5em;
+        font-size: 10px;
+    
+    }
+
+    .flexdrow {
+        display: flex;
+        flex-direction: column;
+       
+    }
+
+    .inputxl {
+        height: 4em;
+    }
+    
+    input {
+        width: 15em;
+        height: 2em;
+        
+    }
+
+    .boton-form {
+        width: 12em;
+        height: 4em;
+  
+    
+    }
+
+    /** About us*/
+.imagenaboutus {
+    width: 20em;
+    margin-top: 68%;
+    padding-left: 4em;
+    }
+
+    .divtextaboutus {
+        margin-left: 5em;
+        margin-right: 4em;
+        font-size: 13px;
+    
+    }
+
+    .divtextaboutus2 {
+        margin-left: 5em;
+        margin-right: 4em;
+        font-size: 13px;
+    
+    }
+
+    /* Fashion */
+
+    .fashionsection {
+
+       
+        margin-left: 3em;
+        padding-top: 16em;
+        padding-left: 1.5em;
+        padding-right: 0em;
+        
+    
+    }
+
+    .imagenesfashion {
+
+        width: 250px;
+        height: 250px;
+        padding: 25px;
+    
+    }
+    
+    .imagenesfashionbig {
+    
+        width: 250px;
+        height: 250px;
+        
+        padding: 25px;
+        padding-right: 24%;
+    
+    }
+
+    .numerospaginas {
+
+        padding-left: 5.5em;
+        padding-top: 5em;
+        margin-bottom: -7em;
+    
+    }
+    
+    .numbers {
+        padding: 1em;
+        font-size: 12px;
+        font-weight: bold;
+    
+    
+    }
+
+
+
 }
 
 @media(max-width:375px) {
@@ -866,6 +1103,55 @@ input {
         
     }
 
+    /* work w us*/
+
+    .divtextworkwithus {
+        
+        font-size:9px;
+    
+    }
+
+    /** About us*/
+.imagenaboutus {
+    width: 19em;
+    margin-top: 76%;
+    padding-left: 2.5em;
+    }
+
+    /* Fashion */
+    .numbers {
+        padding: 0.5em;
+        font-size: 9px;
+        font-weight: bold;
+    
+    
+    }
+    .imagenesfashion {
+
+        width: 200px;
+        height: 200px;
+        padding: 25px;
+    
+    }
+    
+    .imagenesfashionbig {
+    
+        width: 200px;
+        height: 200px;
+        
+        padding: 25px;
+        padding-right: 24%;
+    
+    }
+    .numerospaginas {
+
+        padding-left: 5em;
+        padding-top: 4.5em;
+        margin-bottom: -7em;
+    
+    }
+
+
 }
 
 @media(max-width:320px) {
@@ -942,6 +1228,86 @@ input {
         padding-bottom: -2em;
     }
 
+    /* work w us*/
+
+    .divtextworkwithus {
+        
+        font-size:8px;
+    
+    }
+
+    .imagenworkwithus {
+
+        width: 70%;
+        height: 7em;
+        margin-top: 15em;
+        margin-left: 3em;
+        
+    
+    }
+
+    /** About us*/
+.imagenaboutus {
+    width: 17em;
+    margin-top: 78%;
+    padding-left: 1.5em;
+    }
+
+    .divtextaboutus {
+        margin-left: 4em;
+        margin-right: 3em;
+       
+    
+    }
+
+    .divtextaboutus2 {
+        margin-left: 4em;
+        margin-right: 3em;
+        
+    
+    }
+
+     /* Fashion */
+     .numbers {
+        padding: -4em;
+        font-size: 7px;
+        font-weight: bold;
+        
+    
+    
+    }
+    .imagenesfashion {
+
+        width: 200px;
+        height: 200px;
+        padding: 10px;
+    
+    }
+    
+    .imagenesfashionbig {
+    
+        width: 200px;
+        height: 200px;
+        
+        padding: 10px;
+        padding-right: 19%;
+    
+    }
+    .numerospaginas {
+
+        padding-left: 5em;
+        padding-top: 4.5em;
+        margin-bottom: -7em;
+    
+    }
+    .fashionsection {
+
+    padding-left: -1em;
+    padding-right: 1em;
+    
+    
+    }
+
 }
 
 /*
@@ -998,3 +1364,5 @@ input {
     }
 
 }
+
+
