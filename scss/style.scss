@@ -2,7 +2,7 @@ $color_1: black;
 $background-color_1: white;
 $background-color_2: rgb(141, 136, 136);
 
-/** HOME*/
+/** HOME ..*/
 /** FASHION*/
 /** ABOUT US*/
 /**work with us*/
@@ -46,11 +46,14 @@ body {
 	background-color: $background-color_1;
 	overflow-x: hidden;
 }
+
 .logo {
 	height: 6em;
 	padding-left: 36em;
 	padding-top: 1.8em;
 }
+
+
 ul {
 	list-style: none;
 	display: flex;
@@ -139,6 +142,7 @@ footer {
 .footerdetails {
 	display: flex;
 	flex-direction: row;
+	flex-wrap: wrap;
 }
 .aredes {
 	padding-right: 1em;
