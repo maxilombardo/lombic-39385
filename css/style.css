@@ -1,35 +1,15 @@
-/** HOME ..*/
-/** FASHION*/
-/** ABOUT US*/
-/**work with us*/
-/**PHOTOS */
-/** About us*/
-/* Fashion */
-/* Fashion */
-/*Photos
-    */
-/*Work w us*/
-/** About us*/
-/*
-    */
-/* work w us*/
-/** About us*/
-/* Fashion */
-/* Photos */
-/* work w us*/
-/** About us*/
-/* Fashion */
-/* Photos */
-/* work w us*/
-/** About us*/
-/* Fashion */
 * {
   margin: 0;
   padding: 0;
   box-sizing: 0;
 }
 
-nav {
+body {
+  background-color: white;
+  overflow-x: hidden;
+}
+
+header nav {
   background-color: white;
   height: auto;
   margin: -1%;
@@ -39,72 +19,232 @@ nav {
   border: 4px;
   border-bottom: 2px solid rgb(53, 49, 49);
 }
-
-body {
-  background-color: white;
-  overflow-x: hidden;
-}
-
-.logo {
-  height: 6em;
-  padding-left: 36em;
-  padding-top: 1.8em;
-}
-
-ul {
-  list-style: none;
-  display: flex;
-  flex-direction: row;
-  padding-top: -2em;
-  font-size: 20px;
-  justify-content: center;
-}
-
-a {
+header nav a {
   text-decoration: none;
   color: black;
   padding-right: 5em;
 }
-
-.imagend2 {
+header nav a .logo {
+  height: 6em;
+  padding-left: 36em;
+  padding-top: 1.8em;
+}
+header nav ul {
+  list-style: none;
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  flex-wrap: none;
+  justify-content: center;
+  align-items: none;
+  gap: none;
+  padding-top: -2em;
+  font-size: 20px;
 }
 
-.imagenx2 {
+main section .imagend2 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: none;
+  justify-content: space-evenly;
+  align-items: none;
+  gap: none;
+}
+main section .imagend2 .imagenx2 {
   margin-top: 15em;
   width: 30em;
   height: 30em;
   object-fit: cover;
 }
-
-.imagenx1 {
+main section .imagend1 .imagenx1 {
   margin-top: 5em;
   margin-left: 8em;
   object-fit: cover;
   height: 25em;
   width: 81%;
 }
-
-.imagend3 {
+main section .imagend3 {
   margin-top: 5em;
   display: flex;
   flex-direction: row;
+  flex-wrap: none;
   justify-content: space-evenly;
+  align-items: none;
+  gap: none;
 }
-
-.imagenx3 {
+main section .imagend3 .imagenx3 {
   width: 17.2em;
   height: 17.2em;
   object-fit: cover;
 }
-
-.textohome {
+main section .textohome {
   margin-top: 5em;
   padding-left: 5em;
   padding-right: 5em;
   text-align: center;
+}
+
+main .fashionsection {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: none;
+  justify-content: none;
+  align-items: center;
+  gap: none;
+  padding-top: 11em;
+}
+main .fashionsection .fashiondiv12y3 .imagenesfashion {
+  width: 400px;
+  height: 400px;
+  object-fit: cover;
+  padding: 25px;
+}
+main .fashionsection .imagenesfashionbig {
+  width: 850px;
+  height: 350px;
+  object-fit: cover;
+  padding: 25px;
+}
+main .numerospaginas {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: none;
+  justify-content: none;
+  align-items: center;
+  gap: none;
+  padding-left: 30em;
+  padding-top: 8em;
+  margin-bottom: -7em;
+}
+main .numerospaginas a .numbers {
+  padding: 2em;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+main .sectionaboutus {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: none;
+  justify-content: none;
+  align-items: none;
+  gap: none;
+}
+main .sectionaboutus .imagenaboutus {
+  width: 55em;
+  margin-top: 15%;
+  padding-left: 14em;
+  padding-bottom: 3em;
+}
+main .sectionaboutus .divtextaboutus {
+  margin-left: 13em;
+  margin-right: 15em;
+}
+main .sectionaboutus .divtextaboutus .h1biography, main .sectionaboutus .divtextaboutus .h1biography2 {
+  margin-bottom: 2em;
+}
+main .sectionaboutus .divtextaboutus .h2biography {
+  font-weight: 400;
+}
+main .sectionaboutus .divtextaboutus .h1biography2 {
+  margin-top: 4em;
+}
+
+main .workwithussection {
+  align-items: center;
+}
+main .workwithussection .imagenworkwithus {
+  width: 75%;
+  height: 15em;
+  margin-top: 15%;
+  margin-left: 12em;
+  object-fit: cover;
+}
+main .divtextworkwithus {
+  margin-top: 3em;
+  margin-left: 12em;
+}
+main .contenedor-form {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: none;
+  justify-content: space-evenly;
+  align-items: none;
+  gap: none;
+  /*.celdasformulario {
+      width: 35%;
+      padding: 17px;
+  }
+  .celdasformulariobig {
+      width: 35%;
+      padding: 35px;
+      padding-left: 30px;
+      padding-right: 9px;
+  }*/
+}
+main .contenedor-form .flexdrow {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: none;
+  justify-content: space-evenly;
+  align-items: none;
+  gap: none;
+}
+main .contenedor-form .flexdrow .formulariosection {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: none;
+  justify-content: none;
+  align-items: center;
+  gap: 20px;
+  margin-top: 5em;
+  border-style: none;
+}
+main .contenedor-form .flexdrow .formulariosection .inputxl {
+  height: 10em;
+}
+main .contenedor-form .flexdrow .formulariosection input {
+  width: 30em;
+  height: 2em;
+  border: solid black 2px;
+}
+main .contenedor-form .boton-div {
+  display: flex;
+  flex-direction: none;
+  flex-wrap: none;
+  justify-content: center;
+  align-items: none;
+  gap: none;
+  margin-top: 5em;
+}
+main .contenedor-form .boton-div .boton-form {
+  width: 15em;
+  height: 7em;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: none;
+  justify-content: center;
+  align-items: center;
+  gap: none;
+  background-color: rgb(141, 136, 136);
+}
+
+main .photossection {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: none;
+  justify-content: none;
+  align-items: center;
+  gap: none;
+}
+main .photossection .asection {
+  padding-right: 0px;
+}
+main .photossection .asection .photossection1 {
+  width: 100%;
+  height: 30em;
+  margin-top: 12em;
+  margin-bottom: 3em;
+  object-fit: cover;
 }
 
 footer {
@@ -117,21 +257,31 @@ footer {
   margin-bottom: 0%;
   border-top: 2px solid rgb(53, 49, 49);
 }
-
-.logofooter {
-  width: 220px;
-  height: 130px;
-  padding-top: 1em;
+footer .footerdetails {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: none;
+  align-items: none;
+  gap: none;
 }
-
-.mapafooter {
+footer .footerdetails .mapafooter {
   width: 20em;
   height: 9em;
   padding-top: 1.5em;
   padding-left: 2em;
 }
-
-.iconosredes {
+footer .footerdetails .logofooter {
+  width: 220px;
+  height: 130px;
+  padding-top: 1em;
+}
+footer .footerdetails .aredes {
+  padding-right: 1em;
+  padding-top: 1.7em;
+  padding-left: 4em;
+}
+footer .footerdetails .aredes .iconosredes {
   width: 2em;
   margin-top: 1.5em;
   margin-left: 0;
@@ -139,8 +289,7 @@ footer {
   padding-left: 16em;
   padding-top: 1em;
 }
-
-.iconosredes2 {
+footer .footerdetails .aredes .iconosredes2 {
   width: 2em;
   margin-top: 1.5em;
   margin-left: 0;
@@ -149,370 +298,190 @@ footer {
   padding-top: 1em;
 }
 
-.footerdetails {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-}
-
-.aredes {
-  padding-right: 1em;
-  padding-top: 1.7em;
-  padding-left: 4em;
-}
-
-.fashionsection {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding-top: 11em;
-}
-
-.imagenesfashion {
-  width: 400px;
-  height: 400px;
-  object-fit: cover;
-  padding: 25px;
-}
-
-.imagenesfashionbig {
-  width: 850px;
-  height: 350px;
-  object-fit: cover;
-  padding: 25px;
-}
-
-.numerospaginas {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding-left: 30em;
-  padding-top: 8em;
-  margin-bottom: -7em;
-}
-
-.numbers {
-  padding: 2em;
-  font-size: 20px;
-  font-weight: bold;
-}
-
-.imagenaboutus {
-  width: 55em;
-  margin-top: 15%;
-  padding-left: 14em;
-  padding-bottom: 3em;
-}
-
-.sectionaboutus {
-  display: flex;
-  flex-direction: column;
-}
-
-.divtextaboutus {
-  margin-left: 13em;
-  margin-right: 15em;
-}
-
-.h1biography {
-  margin-bottom: 2em;
-}
-
-.divtextaboutus2 {
-  margin-left: 13em;
-  margin-right: 15em;
-}
-
-.h1biography2 {
-  margin-bottom: 2em;
-  margin-top: 4em;
-}
-
-.workwithussection {
-  align-items: center;
-}
-
-.imagenworkwithus {
-  width: 75%;
-  height: 15em;
-  margin-top: 15%;
-  margin-left: 12em;
-  object-fit: cover;
-}
-
-.divtextworkwithus {
-  margin-top: 3em;
-  margin-left: 12em;
-}
-
-.inputxl {
-  height: 10em;
-}
-
-input {
-  width: 30em;
-  height: 2em;
-  border: solid black 2px;
-}
-
-.contenedor-form {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-}
-
-.flexdrow {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-}
-
-.formulariosection {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-top: 5em;
-  gap: 20px;
-  border-style: none;
-}
-
-.boton-form {
-  width: 15em;
-  height: 7em;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  background-color: rgb(141, 136, 136);
-}
-
-.boton-div {
-  display: flex;
-  justify-content: center;
-  margin-top: 5em;
-}
-
-.celdasformulario {
-  width: 35%;
-  padding: 17px;
-}
-
-.celdasformulariobig {
-  width: 35%;
-  padding: 35px;
-  padding-left: 30px;
-  padding-right: 9px;
-}
-
-.photossection {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.photossection1 {
-  width: 100%;
-  height: 30em;
-  margin-top: 12em;
-  margin-bottom: 3em;
-  object-fit: cover;
-}
-
-.asection {
-  padding-right: 0px;
-}
-
 @media (max-width: 1440px) {
-  .iconosredes {
+  footer .footerdetails .logofooter {
+    padding-left: 15em;
+  }
+  footer .footerdetails .aredes .iconosredes {
     padding-left: 9em;
     padding-top: 1em;
   }
-  .iconosredes2 {
+  footer .footerdetails .aredes .iconosredes2 {
     padding-left: -8em;
     padding-top: 1em;
   }
-  .logofooter {
-    padding-left: 15em;
-  }
 }
 @media (max-width: 1024px) {
-  .navclass {
+  header nav {
     width: 100%;
   }
-  .aredes {
-    padding-right: -4em;
-    padding-left: 1em;
+  header nav a .logo {
+    padding-left: 28em;
   }
-  .iconosredes {
-    width: 2em;
-    flex-direction: row;
-    padding-left: 8em;
+  header nav .botones-nav {
+    padding-left: 2em;
   }
-  .logofooter {
+  main section .imagend2 .imagenx2 {
+    width: 23em;
+    height: 23em;
+  }
+  main section .imagend1 .imagenx1 {
+    height: 18em;
+    width: 81%;
+    margin-left: 6em;
+  }
+  main section .imagend3 .imagenx3 {
+    width: 13.2em;
+    height: 13.2em;
+  }
+  main .workwithussection .imagenworkwithus {
+    margin-left: 8em;
+  }
+  main .sectionaboutus .imagenaboutus {
+    width: 50em;
+    margin-top: 20%;
+    padding-left: 7em;
+  }
+  main .sectionaboutus .divtextaboutus {
+    margin-left: 7em;
+    margin-right: 7em;
+  }
+  main .fashionsection .fashiondiv12y3 .imagenesfashion {
+    width: 350px;
+    height: 350px;
+    padding: 25px;
+  }
+  main .fashionsection .imagenesfashionbig {
+    width: 780px;
+    height: 300px;
+    padding: 25px;
+  }
+  main .numerospaginas {
+    padding-left: 19em;
+    padding-top: 7em;
+    margin-bottom: -7em;
+  }
+  main .numerospaginas a .numbers {
+    padding: 2em;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  footer .footerdetails .mapafooter {
+    width: 16em;
+    height: 8em;
+  }
+  footer .footerdetails .logofooter {
     width: 210px;
     height: 120px;
     padding-left: 9em;
     padding-top: 2em;
   }
-  .mapafooter {
-    width: 16em;
-    height: 8em;
+  footer .footerdetails .aredes {
+    padding-right: -4em;
+    padding-left: 1em;
   }
-  .logo {
-    padding-left: 28em;
-  }
-  .botones-nav {
-    padding-left: 2em;
-  }
-  .imagenx2 {
-    width: 23em;
-    height: 23em;
-  }
-  .imagenx1 {
-    height: 18em;
-    width: 81%;
-    margin-left: 6em;
-  }
-  .imagenx3 {
-    width: 13.2em;
-    height: 13.2em;
-  }
-  .imagenworkwithus {
-    margin-left: 8em;
-  }
-  .imagenaboutus {
-    width: 50em;
-    margin-top: 20%;
-    padding-left: 7em;
-  }
-  .divtextaboutus {
-    margin-left: 7em;
-    margin-right: 7em;
-  }
-  .divtextaboutus2 {
-    margin-left: 7em;
-    margin-right: 7em;
-  }
-  .imagenesfashion {
-    width: 350px;
-    height: 350px;
-    padding: 25px;
-  }
-  .imagenesfashionbig {
-    width: 780px;
-    height: 300px;
-    padding: 25px;
-  }
-  .numerospaginas {
-    padding-left: 19em;
-    padding-top: 7em;
-    margin-bottom: -7em;
-  }
-  .numbers {
-    padding: 2em;
-    font-size: 20px;
-    font-weight: bold;
+  footer .footerdetails .aredes .iconosredes {
+    width: 2em;
+    flex-direction: row;
+    padding-left: 8em;
   }
 }
 @media (max-width: 768px) {
-  .botones-nav {
-    width: 100%;
-  }
-  .textonav {
-    font-size: 14px;
-  }
-  .logo {
+  header nav a .logo {
     padding-left: 20em;
   }
-  .imagenx2 {
+  header nav ul .textonav {
+    font-size: 14px;
+  }
+  main section .imagend2 {
+    padding-left: 1em;
+    padding-right: 1.5em;
+  }
+  main section .imagend2 .imagenx2 {
     width: 18em;
     height: 18em;
     padding-left: 1em;
   }
-  .imagend2 {
-    padding-left: 1em;
-    padding-right: 1.5em;
-  }
-  .imagenx1 {
+  main section .imagend1 .imagenx1 {
     height: 15em;
     width: 82%;
     margin-left: 4.5em;
   }
-  .imagenx3 {
+  main section .imagend3 {
+    padding-left: 0.5em;
+  }
+  main section .imagend3 .imagenx3 {
     width: 10.2em;
     height: 10.2em;
     padding-left: 0.5em;
   }
-  .imagend3 {
-    padding-left: 0.5em;
-  }
-  .textohome {
+  main section .textohome {
     padding-left: 4em;
     padding-right: 3em;
   }
-  .aredes {
-    padding-right: -3em;
+  main .workwithussection .imagenworkwithus {
+    margin-top: 10em;
+    margin-left: 6.5em;
   }
-  .iconosredes {
-    width: 2em;
-    flex-direction: row;
-    padding-left: 4em;
-  }
-  .logofooter {
-    width: 170px;
-    height: 90px;
-    padding-left: 5em;
-    padding-top: 1.8em;
-  }
-  .mapafooter {
-    width: 14em;
+  main .contenedor-form .flexdrow .formulariosection .inputxl {
     height: 7em;
   }
-  .imagenesfashion {
+  main .contenedor-form .flexdrow .formulariosection input {
+    width: 22em;
+    height: 2em;
+  }
+  main .sectionaboutus .imagenaboutus {
+    width: 38em;
+    margin-top: 22%;
+    padding-left: 6em;
+  }
+  main .fashionsection .fashiondiv12y3 .imagenesfashion {
     width: 300px;
     height: 300px;
     padding: 25px;
   }
-  .imagenesfashionbig {
+  main .fashionsection .imagenesfashionbig {
     width: 690px;
     height: 270px;
     padding: 25px;
   }
-  .numerospaginas {
+  main .numerospaginas {
     padding-left: 10em;
     padding-top: 6em;
     margin-bottom: -7em;
   }
-  .numbers {
+  main .numerospaginas a .numbers {
     padding: 2em;
     font-size: 20px;
     font-weight: bold;
   }
-  .photossection1 {
+  main .photossection {
+    padding-left: 3.5em;
+    padding-top: 3em;
+  }
+  main .photossection .asection .photossection1 {
     width: 90%;
     height: 20em;
     margin-top: 15em;
     margin-right: -2em;
   }
-  .photossection {
-    padding-left: 3.5em;
-    padding-top: 3em;
-  }
-  .imagenworkwithus {
-    margin-top: 10em;
-    margin-left: 6.5em;
-  }
-  .inputxl {
+  footer .footerdetails .mapafooter {
+    width: 14em;
     height: 7em;
   }
-  input {
-    width: 22em;
-    height: 2em;
+  footer .footerdetails .logofooter {
+    width: 170px;
+    height: 90px;
+    padding-left: 5em;
+    padding-top: 1.8em;
   }
-  .imagenaboutus {
-    width: 38em;
-    margin-top: 22%;
-    padding-left: 6em;
+  footer .footerdetails .aredes {
+    padding-right: -3em;
+  }
+  footer .footerdetails .aredes .iconosredes {
+    width: 2em;
+    flex-direction: row;
+    padding-left: 4em;
   }
 }
 @media (max-width: 425px) {
@@ -539,7 +508,10 @@ input {
   .footerdetails {
     display: flex;
     flex-direction: column;
+    flex-wrap: none;
+    justify-content: none;
     align-items: center;
+    gap: none;
   }
   .mapafooter {
     width: 10em;
@@ -633,6 +605,10 @@ input {
   .flexdrow {
     display: flex;
     flex-direction: column;
+    flex-wrap: none;
+    justify-content: none;
+    align-items: none;
+    gap: none;
   }
   .inputxl {
     height: 4em;

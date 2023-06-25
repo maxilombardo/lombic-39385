@@ -1,0 +1,183 @@
+//main del index
+main {
+    section {
+        .imagend2 {
+            @include flexx (row, none, space-evenly, none, none);
+            .imagenx2 {
+                margin-top: 15em;
+                width: 30em;
+                height: 30em;
+                object-fit: cover;
+            }
+        }
+        .imagend1 {
+            .imagenx1 {
+                margin-top: 5em;
+                margin-left: 8em;
+                object-fit: cover;
+                height: 25em;
+                width: 81%;
+            }
+        }
+        .imagend3 {
+            margin-top: 5em;
+            @include flexx (row, none, space-evenly, none, none);
+            .imagenx3 {
+                width: 17.2em;
+                height: 17.2em;
+                object-fit: cover;
+            }
+        }
+
+    }
+    section{
+        .textohome {
+            margin-top: 5em;
+            padding-left: 5em;
+            padding-right: 5em;
+            text-align: center;
+        }
+    }
+}
+
+//main de fashion//
+main{
+    .fashionsection {
+        @include flexx (column, none, none, center, none);
+        padding-top: 11em;
+        .fashiondiv12y3 {
+            .imagenesfashion {
+                width: 400px;
+                height: 400px;
+                object-fit: cover;
+                padding: 25px;
+            }
+        }            
+        .imagenesfashionbig {
+            width: 850px;
+            height: 350px;
+            object-fit: cover;
+            padding: 25px;
+        }
+    }
+    
+    .numerospaginas {
+        @include flexx (row, none, none, center, none);
+        padding-left: 30em;
+        padding-top: 8em;
+        margin-bottom: -7em;
+        a {
+            .numbers {
+                padding: 2em;
+                font-size: 20px;
+                font-weight: bold;
+            }
+        }
+    }
+}
+
+//main abouts us
+
+main {
+    .sectionaboutus {
+        @include flexx (column, none, none, none, none);
+        .imagenaboutus {
+            width: 55em;
+            margin-top: 15%;
+            padding-left: 14em;
+            padding-bottom: 3em;
+        }
+        .divtextaboutus {
+            margin-left: 13em;
+            margin-right: 15em;
+            .h1biography, .h1biography2 {
+                margin-bottom: 2em;
+            }
+            .h2biography {
+                font-weight: 400;
+            }
+            .h1biography2 {
+                margin-top: 4em;
+            }
+        }
+    }
+}
+
+// main work with us 
+
+main {
+    .workwithussection {
+        align-items: center;
+        .imagenworkwithus {
+            width: 75%;
+            height: 15em;
+            margin-top: 15%;
+            margin-left: 12em;
+            object-fit: cover;
+        }
+    }
+
+    .divtextworkwithus {
+        margin-top: 3em;
+        margin-left: 12em;
+    }
+    .contenedor-form {
+        @include flexx (column, none, space-evenly, none, none);
+        .flexdrow {
+            @include flexx (row, none, space-evenly, none, none);
+            .formulariosection {
+                @include flexx (column, none, none, center, 20px);
+                margin-top: 5em;
+                border-style: none;
+                .inputxl {
+                    height: 10em;
+                }
+                input {
+                    width: 30em;
+                    height: 2em;
+                    border: solid black 2px;
+                }
+            }
+        }
+        .boton-div {
+            @include flexx (none, none, center, none, none);
+            margin-top: 5em;
+            .boton-form {
+                width: 15em;
+                height: 7em;
+                @include flexx (column, none, center, center, none);
+                background-color: $background-color_2;
+            }
+        }
+        /*.celdasformulario {
+            width: 35%;
+            padding: 17px;
+        }
+        .celdasformulariobig {
+            width: 35%;
+            padding: 35px;
+            padding-left: 30px;
+            padding-right: 9px;
+        }*/
+    }
+}
+
+//main de photos
+
+main {
+    .photossection {
+        @include flexx (column, none, none, center, none);
+        .asection {
+            padding-right: 0px;
+            .photossection1 {
+                width: 100%;
+                height: 30em;
+                margin-top: 12em;
+                margin-bottom: 3em;
+                object-fit: cover;
+            }
+        }
+    }
+    
+    
+}

@@ -1,0 +1,32 @@
+header {
+    nav {
+        background-color: $bg_1;
+        height: auto;
+        margin: -1%;
+        margin-left: 0;
+        position: fixed;
+        width: 100vw;
+        border: 4px;
+        border-bottom: 2px solid rgb(53, 49, 49);
+
+        a {
+            text-decoration: none;
+            color: $color_1;
+            padding-right: 5em;
+
+            .logo {
+                height: 6em;
+                padding-left: 36em;
+                padding-top: 1.8em;
+            }
+        }
+        ul {
+            list-style: none;
+            @include flexx (row, none, center, none, none); 
+            padding-top: -2em;
+            font-size: 20px;
+            
+        }
+    }
+
+}

@@ -1,0 +1,120 @@
+@media (max-width:1024px) {
+    header {
+        nav {
+            width: 100%;
+            a {
+                .logo {
+                    padding-left: 28em;
+                }
+            }
+            .botones-nav {
+                padding-left: 2em;
+            }
+        }
+   }
+
+   //main index
+   main {
+        section {
+            .imagend2 {
+                .imagenx2 {
+                    width: 23em;
+                    height: 23em;
+                }
+            }
+            .imagend1 {
+                .imagenx1 {
+                    height: 18em;
+                    width: 81%;
+                    margin-left: 6em;
+                }
+            }
+            .imagend3 {
+                .imagenx3 {
+                    width: 13.2em;
+                    height: 13.2em;
+                }
+            }
+
+        }
+    } 
+    //main work with us
+    main {
+        .workwithussection {
+            .imagenworkwithus {
+                margin-left: 8em;
+            }
+        }
+    }
+    //main about us
+    main {
+        .sectionaboutus {
+           
+            .imagenaboutus {
+                width: 50em;
+                margin-top: 20%;
+                padding-left: 7em;
+            }
+            .divtextaboutus {
+                margin-left: 7em;
+                margin-right: 7em;
+            }
+        }
+    }
+    // main fashion 
+    main{
+        .fashionsection {
+           
+            .fashiondiv12y3 {
+                .imagenesfashion {
+                    width: 350px;
+		            height: 350px;
+		            padding: 25px;
+                }
+            }            
+            .imagenesfashionbig {
+                width: 780px;
+                height: 300px;
+                padding: 25px;
+            }
+        }
+        .numerospaginas {
+            padding-left: 19em;
+            padding-top: 7em;
+            margin-bottom: -7em;
+            a {
+                .numbers {
+                    padding: 2em;
+		            font-size: 20px;
+		            font-weight: bold;
+                }
+            }
+        }
+    }
+
+    //footer
+    footer {
+        .footerdetails { 
+            .mapafooter {
+                width: 16em;
+		        height: 8em;
+            }
+            .logofooter {
+                width: 210px;
+                height: 120px;
+                padding-left: 9em;
+                padding-top: 2em;
+            }
+            .aredes {
+                padding-right: -4em;
+		        padding-left: 1em;
+                .iconosredes {
+                    width: 2em;
+                    flex-direction: row;
+                    padding-left: 8em;
+                }
+            }
+        }
+    }
+}
+

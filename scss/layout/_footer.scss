@@ -1,0 +1,45 @@
+footer {
+	background-color: $bg_1;
+	height: 12em;
+	width: 100%;
+	margin: -1%;
+	margin-left: 0;
+	margin-top: 15em;
+	margin-bottom: 0%;
+	border-top: 2px solid rgb(53, 49, 49);
+    .footerdetails {
+        @include flexx (row, wrap, none, none, none);
+        .mapafooter {
+            width: 20em;
+            height: 9em;
+            padding-top: 1.5em;
+            padding-left: 2em;
+        }
+        .logofooter {
+            width: 220px;
+            height: 130px;
+            padding-top: 1em;
+        }
+        .aredes {
+            padding-right: 1em;
+            padding-top: 1.7em;
+            padding-left: 4em;
+            .iconosredes {
+                width: 2em;
+                margin-top: 1.5em;
+                margin-left: 0;
+                flex-direction: row;
+                padding-left: 16em;
+                padding-top: 1em;
+            }
+            .iconosredes2 {
+                width: 2em;
+                margin-top: 1.5em;
+                margin-left: 0;
+                flex-direction: row;
+                padding-left: -8em;
+                padding-top: 1em;
+            }
+        }
+    }
+}
