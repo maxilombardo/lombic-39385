@@ -357,7 +357,7 @@ footer .footerdetails .aredes .iconosredes2 {
     padding: 25px;
   }
   main .numerospaginas {
-    padding-left: 19em;
+    padding-left: 23em;
     padding-top: 7em;
     margin-bottom: -7em;
   }
@@ -446,7 +446,7 @@ footer .footerdetails .aredes .iconosredes2 {
     padding: 25px;
   }
   main .numerospaginas {
-    padding-left: 10em;
+    padding-left: 14em;
     padding-top: 6em;
     margin-bottom: -7em;
   }
@@ -485,124 +485,80 @@ footer .footerdetails .aredes .iconosredes2 {
   }
 }
 @media (max-width: 425px) {
-  .imagend2 {
-    flex-direction: column;
-    padding-bottom: 0em;
+  header nav {
+    height: auto;
+  }
+  header nav a .logo {
+    padding-left: 9em;
     margin-bottom: -2em;
-    padding-top: 17em;
+    padding-top: 0.5em;
   }
-  .imagenx2 {
-    width: 23em;
-    height: 15em;
-    padding-bottom: 0em;
-    margin-top: 3em;
-  }
-  .imagengirl1 {
-    margin-bottom: 0em;
-    margin-top: 15em;
-  }
-  .imagengirl2 {
-    margin-top: -15em;
-    padding-top: -15em;
-  }
-  .footerdetails {
-    display: flex;
+  header nav .botones-nav {
+    margin-left: -2em;
+    margin-right: 1.5em;
     flex-direction: column;
-    flex-wrap: none;
-    justify-content: none;
     align-items: center;
-    gap: none;
   }
-  .mapafooter {
-    width: 10em;
-    height: 5em;
-  }
-  .logofooter {
-    width: 150px;
-    height: 75px;
-    padding-left: 1em;
-    margin-bottom: -4em;
-  }
-  .aredes {
-    padding-left: 0em;
-    padding-right: 0em;
-  }
-  .iconosredes {
-    width: 1.8em;
-    padding-left: 1em;
-    padding-bottom: -1em;
-    margin-bottom: -2em;
-  }
-  .iconosredes2 {
-    width: 1.8em;
-    padding-left: 1em;
-    padding-top: 0em;
-    padding-bottom: -1em;
-    margin-bottom: -2em;
-  }
-  footer {
-    width: auto;
-  }
-  .textohome {
-    font-size: 12px;
-    padding-left: 2em;
-    padding-right: 1em;
-  }
-  .imagenx1 {
-    width: 23em;
-    height: 15em;
-    margin-left: 2em;
-  }
-  .imagend3 {
-    flex-direction: column;
-    padding-top: 0em;
-    margin-top: 0em;
-    margin-left: 1em;
-  }
-  .imagenx3 {
-    width: 23em;
-    height: 15em;
-    padding-top: 3em;
-  }
-  .textonav {
+  header nav ul .textonav {
     font-size: 12px;
     padding-top: 2em;
     padding-left: 1em;
     margin-right: -3em;
     padding-right: 0em;
   }
-  .botones-nav {
-    margin-left: -2em;
-    margin-right: 1.5em;
+  main section .imagend2 {
     flex-direction: column;
-    align-items: center;
-  }
-  .logo {
-    padding-left: 9em;
+    padding-bottom: 0em;
     margin-bottom: -2em;
-    padding-top: 0.5em;
+    padding-top: 17em;
   }
-  nav {
-    height: auto;
-  }
-  .photossection1 {
-    width: 90%;
+  main section .imagend2 .imagenx2 {
+    width: 23em;
     height: 15em;
-    margin-right: 0em;
-    padding-left: 0em;
+    padding-bottom: 0em;
+    margin-top: 3em;
   }
-  .imagenworkwithus {
+  main section .imagend2 .imagengirl1 {
+    margin-bottom: 0em;
+    margin-top: 15em;
+  }
+  main section .imagend2 .imagengirl2 {
+    margin-top: -15em;
+    padding-top: -15em;
+  }
+  main section .imagend1 .imagenx1 {
+    width: 23em;
+    height: 15em;
+    margin-left: 2em;
+  }
+  main section .imagend3 {
+    flex-direction: column;
+    padding-top: 0em;
+    margin-top: 0em;
+    margin-left: 1em;
+  }
+  main section .imagend3 .imagenx3 {
+    width: 23em;
+    height: 15em;
+    padding-top: 3em;
+  }
+  main section .textohome {
+    font-size: 12px;
+    padding-left: 2em;
+    padding-right: 1em;
+  }
+  main .workwithussection .imagenworkwithus {
     width: 70%;
     height: 9em;
     margin-top: 19em;
     margin-left: 4.5em;
   }
-  .divtextworkwithus {
+  main .divtextworkwithus {
     margin-top: 3.5em;
     margin-left: 6.5em;
     font-size: 10px;
   }
-  .flexdrow {
+  main .contenedor-form .flexdrow {
     display: flex;
     flex-direction: column;
     flex-wrap: none;
@@ -610,237 +566,276 @@ footer .footerdetails .aredes .iconosredes2 {
     align-items: none;
     gap: none;
   }
-  .inputxl {
+  main .contenedor-form .flexdrow .formulariosection .inputxl {
     height: 4em;
   }
-  input {
+  main .contenedor-form .flexdrow .formulariosection input {
     width: 15em;
     height: 2em;
   }
-  .boton-form {
+  main .contenedor-form .boton-div .boton-form {
     width: 12em;
     height: 4em;
   }
-  .imagenaboutus {
+  main .sectionaboutus .imagenaboutus {
     width: 20em;
     margin-top: 68%;
     padding-left: 4em;
   }
-  .divtextaboutus {
+  main .sectionaboutus .divtextaboutus {
     margin-left: 5em;
     margin-right: 4em;
     font-size: 13px;
   }
-  .divtextaboutus2 {
-    margin-left: 5em;
-    margin-right: 4em;
-    font-size: 13px;
-  }
-  .fashionsection {
+  main .fashionsection {
     margin-left: 3em;
     padding-top: 16em;
     padding-left: 1.5em;
     padding-right: 0em;
   }
-  .imagenesfashion {
+  main .fashionsection .fashiondiv12y3 .imagenesfashion {
     width: 250px;
     height: 250px;
     padding: 25px;
   }
-  .imagenesfashionbig {
+  main .fashionsection .imagenesfashionbig {
     width: 250px;
     height: 250px;
     padding: 25px;
     padding-right: 24%;
   }
-  .numerospaginas {
-    padding-left: 5.5em;
+  main .numerospaginas {
+    padding-left: 10em;
     padding-top: 5em;
     margin-bottom: -7em;
   }
-  .numbers {
+  main .numerospaginas a .numbers {
     padding: 1em;
     font-size: 12px;
     font-weight: bold;
   }
+  main .photossection {
+    padding-left: 3.5em;
+    padding-top: 3em;
+  }
+  main .photossection .asection .photossection1 {
+    width: 90%;
+    height: 15em;
+    margin-right: 0em;
+    padding-left: 0em;
+  }
+  footer {
+    width: auto;
+  }
+  footer .footerdetails {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: none;
+    justify-content: none;
+    align-items: center;
+    gap: none;
+  }
+  footer .footerdetails .mapafooter {
+    width: 10em;
+    height: 5em;
+  }
+  footer .footerdetails .logofooter {
+    width: 150px;
+    height: 75px;
+    padding-left: 1em;
+    margin-bottom: -4em;
+  }
+  footer .footerdetails .aredes {
+    padding-left: 0em;
+    padding-right: 0em;
+  }
+  footer .footerdetails .aredes .iconosredes {
+    width: 1.8em;
+    padding-left: 1em;
+    padding-bottom: -1em;
+    margin-bottom: -2em;
+  }
+  footer .footerdetails .aredes .iconosredes2 {
+    width: 1.8em;
+    padding-left: 1em;
+    padding-top: 0em;
+    padding-bottom: -1em;
+    margin-bottom: -2em;
+  }
 }
 @media (max-width: 375px) {
-  .botones-nav {
-    margin-left: -1em;
-    flex-direction: column;
-    align-items: center;
-  }
-  nav {
+  header nav {
     height: auto;
     width: auto;
     height: auto;
   }
-  .textonav {
+  header nav a .logo {
+    padding-left: 8em;
+    padding-bottom: -1em;
+    margin-bottom: -2.5em;
+  }
+  header nav .botones-nav {
+    margin-left: -1em;
+    flex-direction: column;
+    align-items: center;
+  }
+  header nav ul .textonav {
     font-size: 12px;
     padding-top: 2em;
     padding-left: 1em;
     margin-right: -3em;
     padding-right: 2em;
   }
-  .imagend2 {
+  main section .imagend2 {
     flex-direction: column;
     padding-bottom: 0em;
     margin-bottom: -2em;
     padding-top: 17em;
   }
-  .imagenx2 {
+  main section .imagend2 .imagenx2 {
     width: 20em;
     height: 15em;
     padding-bottom: 0em;
     margin-top: 3em;
   }
-  .imagenx1 {
+  main section .imagend1 .imagenx1 {
     width: 20em;
     height: 15em;
     margin-left: 2em;
   }
-  .imagend3 {
+  main section .imagend3 {
     flex-direction: column;
     padding-top: 0em;
     margin-top: 0em;
     margin-left: 1em;
   }
-  .imagenx3 {
+  main section .imagend3 .imagenx3 {
     width: 20em;
     height: 15em;
     padding-top: 3em;
   }
-  .logo {
-    padding-left: 8em;
-    padding-bottom: -1em;
-    margin-bottom: -2.5em;
-  }
-  .photossection1 {
-    width: 90%;
-    height: 12em;
-  }
-  .asection {
-    margin-bottom: -8em;
-    margin-right: 1em;
-  }
-  .divtextworkwithus {
+  main .divtextworkwithus {
     font-size: 9px;
   }
-  .imagenaboutus {
+  main .sectionaboutus .imagenaboutus {
     width: 19em;
     margin-top: 76%;
     padding-left: 2.5em;
   }
-  .numbers {
-    padding: 0.5em;
-    font-size: 9px;
-    font-weight: bold;
-  }
-  .imagenesfashion {
+  main .fashionsection .fashiondiv12y3 .imagenesfashion {
     width: 200px;
     height: 200px;
     padding: 25px;
   }
-  .imagenesfashionbig {
+  main .fashionsection .imagenesfashionbig {
     width: 200px;
     height: 200px;
     padding: 25px;
     padding-right: 24%;
   }
-  .numerospaginas {
-    padding-left: 5em;
+  main .numerospaginas {
+    padding-left: 10em;
     padding-top: 4.5em;
     margin-bottom: -7em;
   }
+  main .numerospaginas a .numbers {
+    padding: 0.5em;
+    font-size: 9px;
+    font-weight: bold;
+  }
+  main .photossection .asection {
+    margin-bottom: -8em;
+    margin-right: 1em;
+  }
+  main .photossection .asection .photossection1 {
+    width: 90%;
+    height: 12em;
+  }
 }
 @media (max-width: 320px) {
-  nav {
+  header nav {
     height: auto;
     padding-right: 0em;
   }
-  .logo {
+  header nav a .logo {
     padding-left: 5em;
   }
-  .textonav {
+  header nav ul .textonav {
     font-size: 10px;
-    padding-right: 7em;
+    padding-right: 2em;
   }
-  .imagenx1 {
+  main section .imagend2 .imagenx2 {
     width: 16em;
     height: 11em;
   }
-  .imagenx2 {
+  main section .imagend1 .imagenx1 {
     width: 16em;
     height: 11em;
   }
-  .imagenx3 {
+  main section .imagend3 .imagenx3 {
     width: 16em;
     height: 11em;
   }
-  .textohome {
+  main section .textohome {
     font-size: 10px;
     margin-left: 4em;
     padding-left: 0em;
     padding-right: 5em;
   }
-  footer {
-    height: auto;
-  }
-  .photossection1 {
-    width: 90%;
-    height: 10em;
-  }
-  .asection {
-    margin-bottom: -12em;
-    margin-right: 2em;
-    padding-bottom: -2em;
-  }
-  .divtextworkwithus {
-    font-size: 8px;
-  }
-  .imagenworkwithus {
+  main .workwithussection .imagenworkwithus {
     width: 70%;
     height: 7em;
     margin-top: 15em;
     margin-left: 3em;
   }
-  .imagenaboutus {
+  main .divtextworkwithus {
+    font-size: 8px;
+  }
+  main .sectionaboutus .imagenaboutus {
     width: 17em;
     margin-top: 78%;
     padding-left: 1.5em;
   }
-  .divtextaboutus {
+  main .sectionaboutus .divtextaboutus {
     margin-left: 4em;
     margin-right: 3em;
   }
-  .divtextaboutus2 {
-    margin-left: 4em;
-    margin-right: 3em;
+  main .fashionsection {
+    padding-left: -1em;
+    padding-right: 1em;
   }
-  .numbers {
-    padding: -4em;
-    font-size: 7px;
-    font-weight: bold;
-  }
-  .imagenesfashion {
+  main .fashionsection .fashiondiv12y3 .imagenesfashion {
     width: 200px;
     height: 200px;
     padding: 10px;
   }
-  .imagenesfashionbig {
+  main .fashionsection .imagenesfashionbig {
     width: 200px;
     height: 200px;
     padding: 10px;
     padding-right: 19%;
   }
-  .numerospaginas {
-    padding-left: 5em;
+  main .numerospaginas {
+    padding-left: 10em;
     padding-top: 4.5em;
     margin-bottom: -7em;
   }
-  .fashionsection {
-    padding-left: -1em;
-    padding-right: 1em;
+  main .numerospaginas a .numbers {
+    padding: -4em;
+    font-size: 7px;
+    font-weight: bold;
+  }
+  main .photossection {
+    width: 90%;
+    height: 10em;
+  }
+  main .photossection .asection {
+    margin-bottom: -12em;
+    margin-right: 2em;
+    padding-bottom: -2em;
+  }
+  footer {
+    height: auto;
   }
 }
 
